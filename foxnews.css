@@ -1,0 +1,187 @@
+table{
+    width: 100%;
+    margin: 0;
+    border-spacing: 0px;
+}
+
+table,td,tr{
+    border: 0;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 0px;
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+    height: 0.85cm;
+    width: 100%;
+    margin: 0;
+}
+
+.header2{
+    background-color: rgb(212, 33, 33);
+    height: 4px;
+    width: 100%;
+    margin: 0;
+}
+
+.nav{
+    background-color: #003366;
+    height: 0.9cm;
+    width: 100%;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    word-spacing: 1px;
+}
+
+.log-in{
+    color: white;
+    background-color: rgba(27, 78, 129, 1);
+    border: 0px;
+    padding: 6px 12px;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-left: 350px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.log-in:hover{
+    background-color: rgb(64, 120, 175)
+}
+
+button{
+    background-color: rgb(210, 15, 38);
+    padding: 6px 12px;
+    border: 0px;
+    border-radius: 3px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+}
+button:hover{
+    background-color: rgb(208, 88, 102);
+}
+
+.after-nav-heading{
+    color: #003366;
+    font-size: 14px;
+    font-weight: 900;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.after-nav-heading:hover{
+    text-decoration: underline;
+}
+
+.main-icon{
+    width: 84px;
+    height: 84px;
+    margin-left: 2px;
+    margin-top: 2px;
+    position: absolute;
+    border-radius: 1px;
+}
+
+.main-icon-background{
+    width: 89px;
+    height: 79px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: absolute;
+}
+
+.nav-link,.nav-link:visited{
+    padding:6px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.4s;
+} 
+
+.nav-link:hover,.nav-link:active{
+    background-color: #215486;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.poto-1{
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 5px;
+    width: 890;
+    height: 475;
+    margin-bottom: 100px;
+}
+
+.text-1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #003366;
+    text-decoration: none;
+}
+
+.text-1:hover{
+    text-decoration: underline;
+}
+
+.poto-overlay{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    background-color:rgba(0, 51, 102, 0.8);
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 140px;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+footer{
+    background-color: #003366;
+    height: 500px;
+}
+
+.footerlinkmain{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footerlinkmain p{
+    margin: 0px;
+}
+
+.footerlink{
+    margin-left: 30px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footerlink p{
+    margin: 0;
+}
+
+.footerlink:hover{
+    padding-bottom: 3px;
+    color: #2b69a8;
+    text-decoration: underline;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
